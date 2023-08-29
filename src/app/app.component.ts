@@ -33,6 +33,8 @@ export class AppComponent {
   Treatment:['',Validators.required],
   WeekDuration:['',Validators.required],
   Interventions:['',Validators.required],
+  AnticipatedGoals:['',Validators.required],
+  Therapist:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

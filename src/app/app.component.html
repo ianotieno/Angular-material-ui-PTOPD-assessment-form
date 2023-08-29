@@ -190,7 +190,13 @@
         <input  formControlName="AnticipatedGoals" matInput placeholder="Anticipated Goals">
              </mat-form-field></li> 
         </ol>
-        </div>    
+        </div>  
+        <div class="col-md-6">
+          <mat-form-field class="full-width">
+            <mat-label>Physical Therapist:</mat-label>
+            <input formControlName="Therapist" matInput placeholder="Physical Therapist"> 
+          </mat-form-field>
+        </div>  
     </mat-card-content>
     <mat-card-actions>
       <button (click)="saveForm()" mat-raised-button color="primary">Save</button>

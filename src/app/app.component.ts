@@ -25,6 +25,7 @@ export class AppComponent {
   Mobility:['',Validators.required],
   Motor:['',Validators.required],
   RightUpper:['',Validators.required],
+  Left:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

@@ -26,8 +26,7 @@
         <div class="col-md-6">
           <mat-form-field class="full-width">
             <mat-label>Referring Doctor:</mat-label>
-            <input formControlName="ReferringDoctor" matInput placeholder="Referring Doctor ">
-         
+            <input formControlName="ReferringDoctor" matInput placeholder="Referring Doctor "> 
           </mat-form-field>
         </div>
         <div class="col-md-6">
@@ -37,22 +36,6 @@
           </mat-form-field>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-            <mat-radio-group  formControlName="gender" class="margin-left">
-                <mat-label>Pick Patient Gender</mat-label>
-                <mat-radio-button value="male" checked> Male </mat-radio-button>
-                <mat-radio-button value="female"> Female </mat-radio-button>
-            </mat-radio-group>
-        </div>
-    </div>
-
-    <div class="col-md-6">
-      <mat-form-field class="full-width" >
-        <mat-label>Admin No?</mat-label>
-        <input  formControlName="AdminNo" matInput placeholder="Admin No">
-      </mat-form-field>
-    </div>
       <div class="row">
         <div class="col-sm-6">
           <mat-form-field class="full-width" appearance="fill">
@@ -76,6 +59,27 @@
               <textarea  formControlName="SurgicalHistory" matInput placeholder="Surgical History"></textarea>
             </mat-form-field>
           </div>
+        </div>
+        <div class="col-md-6">
+          <mat-label style="font-size: medium;">OBJECTIVE EXAMINATION:</mat-label>
+          <ol>
+        <li>  <mat-form-field class="full-width" >
+              <mat-label>Rue:</mat-label>
+              <input  formControlName="Rue" matInput placeholder="Rue">
+          </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+              <mat-label>Lue:</mat-label>
+              <input  formControlName="Lue" matInput placeholder="Lue">
+          </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+            <mat-label>Rle:</mat-label>
+            <input  formControlName="Rle" matInput placeholder="Rle">
+             </mat-form-field></li>
+        <li> <mat-form-field class="full-width" >
+            <mat-label>Motor/ Strength:</mat-label>
+            <input  formControlName="Motor" matInput placeholder="Motor/ Strength">
+            </mat-form-field></li>
+        </ol>
         </div>
         <div class="row">
           <div class="col-sm-6">

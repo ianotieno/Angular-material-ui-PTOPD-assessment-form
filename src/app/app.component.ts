@@ -16,6 +16,9 @@ export class AppComponent {
   chiefcomplians:['',Validators.required],
   PastMedical:['',Validators.required],
   SurgicalHistory:['',Validators.required],
+  Rue:['',Validators.required],
+  Lue:['',Validators.required],
+  Rle:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

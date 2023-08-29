@@ -12,6 +12,7 @@ export class AppComponent {
 
   profileForm=this.formBuilder.group({
   ReferringDoctor:['',Validators.required],
+  Diagnosis:['',Validators.required],
   Age:['',Validators.required],
   dob:['',Validators.required],
   gender:['male',Validators.required],
@@ -19,7 +20,7 @@ export class AppComponent {
   NameOfC:['',Validators.required],
   Admission:['',Validators.required],
   Comorbidities:['',Validators.required],
-  Diagnosis:['',Validators.required],
+  
   History:['',Validators.required],
   Investigations:['',Validators.required],
   Labs:['',Validators.required],

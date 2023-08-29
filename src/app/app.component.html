@@ -128,8 +128,22 @@
             </mat-form-field></li>
         </ol>
         </div>
-        
-        
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-form-field class="full-width" appearance="fill">
+              <mat-label>Assessment</mat-label>
+              <textarea  formControlName="Assessment" matInput placeholder="Assessment"></textarea>
+            </mat-form-field>
+          </div>
+        </div>  
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-form-field class="full-width" appearance="fill">
+              <mat-label>Precautions:</mat-label>
+              <textarea  formControlName="Precautions" matInput placeholder="Precautions"></textarea>
+            </mat-form-field>
+          </div>
+        </div>  
     </mat-card-content>
     <mat-card-actions>
       <button (click)="saveForm()" mat-raised-button color="primary">Save</button>

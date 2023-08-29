@@ -28,6 +28,8 @@ export class AppComponent {
   Gait:['',Validators.required],
   Posture:['',Validators.required],
   SpecialTests:['',Validators.required],
+  Assessment:['',Validators.required],
+  Precautions:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

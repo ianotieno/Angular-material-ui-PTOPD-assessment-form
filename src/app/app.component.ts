@@ -14,7 +14,8 @@ export class AppComponent {
   ReferringDoctor:['',Validators.required],
   Diagnosis:['',Validators.required],
   chiefcomplians:['',Validators.required],
-
+  PastMedical:['',Validators.required],
+  SurgicalHistory:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

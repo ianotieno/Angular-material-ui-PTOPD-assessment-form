@@ -53,29 +53,11 @@
         <input  formControlName="AdminNo" matInput placeholder="Admin No">
       </mat-form-field>
     </div>
-    <div class="col-md-6 top-padding">
-      <mat-form-field class="full-width" appearance="fill">
-        <mat-label>Enter a date of D.O.A-D.O.D</mat-label>
-        <mat-date-range-input [rangePicker]="picker">
-          <input formControlName="dob" matStartDate placeholder="D.O.A">
-          <input formControlName="dob" matEndDate placeholder="D.O.D">
-        </mat-date-range-input>
-        <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
-        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-        <mat-date-range-picker #picker></mat-date-range-picker>
-      </mat-form-field>                 
-      </div>
-      <div class="col-md-6">
-        <mat-form-field class="full-width" >
-          <mat-label>Name Of Consultant(S): ?</mat-label>
-          <input  formControlName="NameOfC" matInput placeholder="Name Of Consultant">
-        </mat-form-field>
-      </div>
       <div class="row">
         <div class="col-sm-6">
           <mat-form-field class="full-width" appearance="fill">
-            <mat-label>Reason For Admission?</mat-label>
-            <textarea  formControlName="Admission" matInput placeholder="Reason For Admission"></textarea>
+            <mat-label>Chief complains/subjective History</mat-label>
+            <textarea  formControlName="chiefcomplians" matInput placeholder="Chief complains/subjective History"></textarea>
           </mat-form-field>
         </div>
       </div>

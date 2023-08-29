@@ -30,6 +30,8 @@ export class AppComponent {
   SpecialTests:['',Validators.required],
   Assessment:['',Validators.required],
   Precautions:['',Validators.required],
+  Treatment:['',Validators.required],
+  WeekDuration:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

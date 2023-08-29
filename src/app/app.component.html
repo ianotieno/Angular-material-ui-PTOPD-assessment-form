@@ -143,7 +143,28 @@
               <textarea  formControlName="Precautions" matInput placeholder="Precautions"></textarea>
             </mat-form-field>
           </div>
-        </div>  
+        </div> 
+        <div class="col-md-6">
+          <mat-label style="font-size: medium;">Pt Plan Of Care</mat-label>
+          <ol>
+        <li>  <mat-form-field class="full-width" >
+              <mat-label>Treatment Frequency:</mat-label>
+              <input  formControlName="Treatment" matInput placeholder="Treatment Frequency">
+          </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+              <mat-label>Week Duration:</mat-label>
+              <input  formControlName="WeekDuration" matInput placeholder="Week Duration">
+          </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+            <mat-label>Rle:</mat-label>
+            <input  formControlName="Rle" matInput placeholder="Rle">
+             </mat-form-field></li>
+        <li> <mat-form-field class="full-width" >
+            <mat-label>Lle:</mat-label>
+            <input  formControlName="Lle" matInput placeholder="Lle">
+            </mat-form-field></li>
+        </ol>
+        </div>   
     </mat-card-content>
     <mat-card-actions>
       <button (click)="saveForm()" mat-raised-button color="primary">Save</button>

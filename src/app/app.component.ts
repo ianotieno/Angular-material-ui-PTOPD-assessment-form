@@ -20,14 +20,14 @@ export class AppComponent {
   Lue:['',Validators.required],
   Rle:['',Validators.required],
   Lle:['',Validators.required],
-  Pain:['',Validators.required],
-  Gait:['',Validators.required],
-  Mobility:['',Validators.required],
-  Motor:['',Validators.required],
   RightUpper:['',Validators.required],
   Left:['',Validators.required],
   RightLower:['',Validators.required],
   Balance:['',Validators.required],
+  Pain:['',Validators.required],
+  Gait:['',Validators.required],
+  Posture:['',Validators.required],
+  SpecialTests:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

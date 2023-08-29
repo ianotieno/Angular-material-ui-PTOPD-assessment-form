@@ -19,6 +19,11 @@ export class AppComponent {
   Rue:['',Validators.required],
   Lue:['',Validators.required],
   Rle:['',Validators.required],
+  Lle:['',Validators.required],
+  Rom:['',Validators.required],
+  Gait:['',Validators.required],
+  Mobility:['',Validators.required],
+  Motor:['',Validators.required],
   });
   saveForm(){
     console.log('Form data is ', this.profileForm.value);

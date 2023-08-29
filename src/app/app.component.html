@@ -155,16 +155,42 @@
               <mat-label>Week Duration:</mat-label>
               <input  formControlName="WeekDuration" matInput placeholder="Week Duration">
           </mat-form-field></li>
+        </ol>
+        </div>  
+        <div class="col-md-6">
+          <mat-label style="font-size: medium;">Interventions:</mat-label>
+          <ol>
         <li>  <mat-form-field class="full-width" >
-            <mat-label>Rle:</mat-label>
-            <input  formControlName="Rle" matInput placeholder="Rle">
-             </mat-form-field></li>
-        <li> <mat-form-field class="full-width" >
-            <mat-label>Lle:</mat-label>
-            <input  formControlName="Lle" matInput placeholder="Lle">
+              <input  formControlName="Interventions" matInput placeholder="first Interventions">
+          </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+            <input  formControlName="Interventions" matInput placeholder="Second Interventions">
+        </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+          <input  formControlName="Interventions" matInput placeholder="Third Interventions">
             </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+        <input  formControlName="Interventions" matInput placeholder="fourth Interventions">
+             </mat-form-field></li> 
         </ol>
         </div>   
+        <div class="col-md-6">
+          <mat-label style="font-size: medium;">Anticipated Goals:</mat-label>
+          <ol>
+        <li>  <mat-form-field class="full-width" >
+              <input  formControlName="AnticipatedGoals" matInput placeholder="Anticipated Goals">
+          </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+            <input  formControlName="AnticipatedGoals" matInput placeholder="Anticipated Goals">
+        </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+          <input  formControlName="AnticipatedGoals" matInput placeholder="Anticipated Goals">
+            </mat-form-field></li>
+        <li>  <mat-form-field class="full-width" >
+        <input  formControlName="AnticipatedGoals" matInput placeholder="Anticipated Goals">
+             </mat-form-field></li> 
+        </ol>
+        </div>    
     </mat-card-content>
     <mat-card-actions>
       <button (click)="saveForm()" mat-raised-button color="primary">Save</button>
